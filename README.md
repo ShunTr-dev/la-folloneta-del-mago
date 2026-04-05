@@ -50,5 +50,6 @@ El servidor de desarrollo se inicia en `http://localhost:4321`
 ## Contacto
 
 Para información sobre actuaciones:
+
 - 📧 Email: info@lafolloneta.com
 - 📱 Teléfono: +34 123 456 789
