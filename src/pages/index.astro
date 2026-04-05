@@ -1,0 +1,473 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="La Folloneta del Mago - Magia en Vivo">
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="title">🎩 La Folloneta del Mago</h1>
+            <p class="subtitle">Magia íntima y profesional en un espacio único</p>
+            <p class="description">
+              Vive una experiencia mágica inolvidable en nuestra furgoneta especialmente equipada.
+              Un show cercano y profesional que te dejará sin palabras.
+            </p>
+            <a href="#reserva" class="cta-button">Reserva tu Actuación</a>
+          </div>
+          <div class="hero-image">
+            <img src="/van-illustration.svg" alt="La Folloneta - Furgoneta mágica" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title">¿Por qué La Folloneta?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">✨</div>
+            <h3>Ambiente Íntimo</h3>
+            <p>Un espacio acogedor diseñado para grupos reducidos, donde la magia sucede a centímetros de ti.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">🎪</div>
+            <h3>Equipación de Primera</h3>
+            <p>La Folloneta cuenta con las mejores equipaciones: iluminación profesional, sonido de calidad y todo lo necesario para un show impecable.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">🪄</div>
+            <h3>Magia Profesional</h3>
+            <p>Un mago experimentado y cercano que hace de cada actuación una experiencia única y memorable.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">🚐</div>
+            <h3>Máxima Comodidad</h3>
+            <p>Interior reformado y acondicionado para tu comodidad, con asientos cómodos y clima controlado.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <h2 class="section-title">La Experiencia</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              La Folloneta no es solo una furgoneta, es un teatro móvil donde la magia cobra vida.
+              Hemos transformado este espacio en un escenario íntimo donde cada espectador es protagonista.
+            </p>
+            <p>
+              Con capacidad para grupos pequeños, cada actuación es única y personalizada.
+              La cercanía con el mago permite vivir la magia de forma inmersiva, 
+              viendo cada truco, cada gesto, cada momento de asombro desde primera fila.
+            </p>
+            <p>
+              Nuestro mago es un profesional apasionado que combina técnica, humor y cercanía
+              para crear momentos inolvidables. Cada show es diferente, adaptándose al público
+              y creando una conexión especial con cada espectador.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Galería de imágenes -->
+        <div class="gallery">
+          <div class="gallery-item">
+            <img src="/magic-stage.svg" alt="Escenario mágico en La Folloneta" />
+            <p class="gallery-caption">Escenario íntimo y profesional</p>
+          </div>
+          <div class="gallery-item">
+            <img src="/comfort-seats.svg" alt="Asientos cómodos" />
+            <p class="gallery-caption">Asientos premium y confortables</p>
+          </div>
+          <div class="gallery-item">
+            <img src="/van-illustration.svg" alt="Exterior de La Folloneta" />
+            <p class="gallery-caption">Un espacio único sobre ruedas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="reserva" class="booking">
+      <div class="container">
+        <h2 class="section-title">Reserva Tu Actuación</h2>
+        <div class="booking-content">
+          <div class="booking-info">
+            <h3>¿Cómo funciona?</h3>
+            <ul class="booking-steps">
+              <li>📅 Elige tu fecha preferida</li>
+              <li>👥 Indica el número de asistentes (máx. 8 personas)</li>
+              <li>📍 Te llevamos La Folloneta a tu ubicación*</li>
+              <li>🎭 Disfruta de 45 minutos de magia pura</li>
+            </ul>
+            <p class="booking-note">*Disponible en zona metropolitana. Consulta disponibilidad para otras ubicaciones.</p>
+          </div>
+          
+          <div class="contact-box">
+            <h3>Contacto</h3>
+            <p>Para reservas e información:</p>
+            <div class="contact-details">
+              <p>📧 <strong>Email:</strong> info@lafolloneta.com</p>
+              <p>📱 <strong>Teléfono:</strong> +34 123 456 789</p>
+              <p>⏰ <strong>Horario:</strong> Lun-Dom 10:00-22:00</p>
+            </div>
+            <a href="mailto:info@lafolloneta.com" class="contact-button">Contactar Ahora</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 La Folloneta del Mago. Todos los derechos reservados.</p>
+        <p class="footer-tagline">Donde la magia y la cercanía se encuentran 🎩✨</p>
+      </div>
+    </footer>
+  </main>
+</Layout>
+
+<style>
+  main {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    padding: 6rem 0;
+  }
+
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .hero-text {
+    text-align: left;
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    opacity: 0.9;
+    line-height: 1.8;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background: var(--color-accent);
+    color: var(--color-dark);
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    background: #fcd34d;
+  }
+
+  /* Features Section */
+  .features {
+    padding: 5rem 0;
+    background: linear-gradient(180deg, var(--color-dark) 0%, #312e81 100%);
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--color-accent);
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .feature-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(139, 92, 246, 0.2);
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--color-primary);
+  }
+
+  .feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-accent);
+  }
+
+  .feature-card p {
+    opacity: 0.9;
+    line-height: 1.6;
+  }
+
+  /* About Section */
+  .about {
+    padding: 5rem 0;
+    background: var(--color-dark);
+  }
+
+  .about-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .about-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+    line-height: 1.8;
+  }
+
+  /* Gallery */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+
+  .gallery-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(139, 92, 246, 0.2);
+  }
+
+  .gallery-item:hover {
+    transform: translateY(-10px);
+    border-color: var(--color-primary);
+    box-shadow: 0 15px 40px rgba(139, 92, 246, 0.3);
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .gallery-caption {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--color-accent);
+    font-weight: 600;
+  }
+
+  /* Booking Section */
+  .booking {
+    padding: 5rem 0;
+    background: linear-gradient(180deg, #312e81 0%, var(--color-dark) 100%);
+  }
+
+  .booking-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+
+  .booking-info h3,
+  .contact-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-accent);
+  }
+
+  .booking-steps {
+    list-style: none;
+    margin: 2rem 0;
+  }
+
+  .booking-steps li {
+    font-size: 1.1rem;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .booking-note {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    font-style: italic;
+    margin-top: 1rem;
+  }
+
+  .contact-box {
+    background: rgba(139, 92, 246, 0.1);
+    padding: 2.5rem;
+    border-radius: 15px;
+    border: 2px solid rgba(139, 92, 246, 0.3);
+  }
+
+  .contact-details {
+    margin: 2rem 0;
+  }
+
+  .contact-details p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+  }
+
+  .contact-button {
+    display: inline-block;
+    background: var(--color-primary);
+    color: white;
+    padding: 0.9rem 2rem;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+  }
+
+  .contact-button:hover {
+    background: #7c3aed;
+    transform: translateY(-2px);
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 2px solid var(--color-primary);
+  }
+
+  .footer p {
+    margin: 0.5rem 0;
+    opacity: 0.8;
+  }
+
+  .footer-tagline {
+    color: var(--color-accent);
+    font-style: italic;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .hero-text {
+      text-align: center;
+    }
+
+    .hero-image {
+      order: -1;
+    }
+
+    .hero-image img {
+      max-width: 350px;
+    }
+
+    .title {
+      font-size: 2.5rem;
+    }
+
+    .subtitle {
+      font-size: 1.3rem;
+    }
+
+    .description {
+      font-size: 1rem;
+    }
+
+    .section-title {
+      font-size: 2rem;
+    }
+
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .booking-content {
+      grid-template-columns: 1fr;
+    }
+
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

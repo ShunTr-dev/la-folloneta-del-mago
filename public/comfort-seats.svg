@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Fondo con asientos -->
+  <rect x="0" y="0" width="400" height="300" fill="#312e81"/>
+  
+  <!-- Asientos cómodos -->
+  <g id="seat">
+    <!-- Asiento izquierdo -->
+    <rect x="40" y="120" width="140" height="140" rx="20" fill="#8b5cf6"/>
+    <rect x="40" y="120" width="140" height="40" rx="15" fill="#6d28d9"/>
+    <circle cx="70" cy="200" r="15" fill="#4c1d95"/>
+    <circle cx="110" cy="200" r="15" fill="#4c1d95"/>
+    <circle cx="150" cy="200" r="15" fill="#4c1d95"/>
+    
+    <!-- Asiento derecho -->
+    <rect x="220" y="120" width="140" height="140" rx="20" fill="#8b5cf6"/>
+    <rect x="220" y="120" width="140" height="40" rx="15" fill="#6d28d9"/>
+    <circle cx="250" cy="200" r="15" fill="#4c1d95"/>
+    <circle cx="290" cy="200" r="15" fill="#4c1d95"/>
+    <circle cx="330" cy="200" r="15" fill="#4c1d95"/>
+  </g>
+  
+  <!-- Iluminación ambiente -->
+  <circle cx="100" cy="50" r="20" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="300" cy="50" r="20" fill="#fbbf24" opacity="0.6"/>
+  
+  <!-- Rayos de luz -->
+  <path d="M 100 70 L 80 150 L 120 150 Z" fill="#fbbf24" opacity="0.2"/>
+  <path d="M 300 70 L 280 150 L 320 150 Z" fill="#fbbf24" opacity="0.2"/>
+  
+  <!-- Estrellas decorativas -->
+  <text x="180" y="80" font-size="40" fill="#ec4899">✨</text>
+</svg>
